@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#2c1d11">
-  <meta name="description" content="Scriptorium Privatum: una biblioteca personal de literatura, manuscritos y fragmentos de lectura.">
-  <title>Scriptorium Privatum — Biblioteca privada</title>
+  <meta name="description" content="Scriptorium Privatum: la biblioteca personal de Juan Sanabria, sus lecturas, puntuaciones y reseñas.">
+  <title>Scriptorium Privatum — Las lecturas de Juan Sanabria</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,70 +15,68 @@
 <body>
   <div class="paper-texture" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Scriptorium Privatum, inicio"><span class="brand-mark">S</span><span><strong>Scriptorium</strong><small>PRIVATUM · BIBLIOTECA DIGITAL</small></span></a>
-    <nav class="main-nav" aria-label="Navegación principal"><a href="#biblioteca">La biblioteca</a><a href="#fragmentos">Fragmentos</a><a href="#acerca">El scriptorium</a></nav>
-    <a class="header-link" href="#biblioteca">Entrar a leer <span aria-hidden="true">↗</span></a>
+    <a class="brand" href="#inicio" aria-label="Scriptorium Privatum, inicio"><span class="brand-mark">S</span><span><strong>Scriptorium</strong><small>PRIVATUM · MIS LECTURAS</small></span></a>
+    <nav class="main-nav" aria-label="Navegación principal"><a href="#biblioteca">Mi biblioteca</a><a href="#leyendo">Estoy leyendo</a><a href="#acerca">Sobre mí</a></nav>
+    <a class="header-link" href="https://www.goodreads.com/user/show/186595924-juan-sanabria" target="_blank" rel="noopener">Mi Goodreads ↗</a>
     <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
   </header>
 
   <main>
-    <section class="hero" id="inicio">
+    <section class="hero profile-hero" id="inicio">
       <div class="hero-copy">
-        <p class="eyebrow"><span></span> ARCHIVO DE LETRAS Y MEMORIA</p>
-        <h1>Un refugio para<br>los <em>libros eternos.</em></h1>
-        <p class="hero-description">Entre el polvo de los siglos y la quietud de la tinta, cada volumen conserva un mundo. Una biblioteca personal para guardar, descubrir y volver a leer.</p>
-        <div class="hero-actions"><a class="button button-dark" href="#biblioteca">Explorar la colección <span>↗</span></a><a class="text-link" href="#fragmentos">Leer una nota <span>↓</span></a></div>
-        <div class="hero-note"><span class="ornament">✳</span><span>Fundada en la curiosidad.<br><strong>Custodiada por la lectura.</strong></span></div>
+        <p class="eyebrow"><span></span> MI ARCHIVO PERSONAL DE LECTURA</p>
+        <div class="reader-identity">
+          <div class="reader-avatar" aria-label="Iniciales de Juan Sanabria">JS</div>
+          <div><p class="reader-kicker">EL SCRIPTORIUM DE</p><h1>Juan <em>Sanabria.</em></h1><p class="reader-location">Lector · Colombia</p></div>
+        </div>
+        <p class="hero-description">Este es mi rincón para reunir los libros que leo, los que me esperan y las impresiones que dejan en mí. Una biblioteca personal, abierta a quien quiera descubrir mis lecturas.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#biblioteca">Entrar a mi biblioteca <span>↗</span></a><a class="text-link" href="https://www.goodreads.com/user/show/186595924-juan-sanabria" target="_blank" rel="noopener">Ver perfil original <span>↗</span></a></div>
+        <div class="hero-note"><span class="ornament">✳</span><span>Una colección en movimiento.<br><strong>Una lectura a la vez.</strong></span></div>
       </div>
       <div class="hero-art" aria-label="Ilustración decorativa de libros antiguos y un manuscrito">
         <div class="sun-disc"></div><div class="arch arch-one"></div><div class="arch arch-two"></div><div class="floating-label label-top">LIBER · MEMORIA</div>
-        <div class="book-stack"><div class="book book-back"><span>ARS MEMORIAE</span></div><div class="book book-middle"><span>CHRONICA</span></div><div class="book book-front"><i>✳</i><span>LIBER<br>SECRETORUM</span><small>✦ · ✦ · ✦</small></div></div>
-        <div class="open-page"><span class="page-flower">❦</span><span class="page-lines"></span><span class="page-lines short"></span><span class="page-lines"></span></div><div class="floating-label label-bottom">MDCCCL · MMXXVI</div>
+        <div class="book-stack"><div class="book book-back"><span>ARS MEMORIAE</span></div><div class="book book-middle"><span>CHRONICA</span></div><div class="book book-front"><i>✳</i><span>LIBER<br>LECTORIS</span><small>✦ · ✦ · ✦</small></div></div>
+        <div class="open-page"><span class="page-flower">❦</span><span class="page-lines"></span><span class="page-lines short"></span><span class="page-lines"></span></div><div class="floating-label label-bottom">LIBRI · VITAE</div>
       </div>
-      <div class="hero-foot"><span>01 / EL PLACER DE CONSERVAR</span><span>DESLIZA PARA DESCUBRIR ↓</span></div>
+      <div class="hero-foot"><span>01 / MI HISTORIA COMO LECTOR</span><span>DESLIZA PARA DESCUBRIR ↓</span></div>
+    </section>
+
+    <section class="reader-stats section-wrap" aria-label="Estadísticas públicas de Goodreads">
+      <div class="stats-heading"><p class="eyebrow">EL REGISTRO DEL LECTOR</p><h2>Una biblioteca que <em>crece.</em></h2><p>Datos visibles en mi perfil público de Goodreads.</p></div>
+      <div class="stats-grid">
+        <div class="stat-card"><span>LIBROS EN EL PERFIL</span><strong>544</strong><small>en total</small></div>
+        <div class="stat-card"><span>LIBROS LEÍDOS</span><strong>235</strong><small>estantería «read»</small></div>
+        <div class="stat-card"><span>CALIFICACIONES</span><strong>236</strong><small>promedio de 4,48 / 5</small></div>
+        <div class="stat-card"><span>RESEÑAS</span><strong>140</strong><small>opiniones publicadas</small></div>
+      </div>
+      <div class="challenge-panel"><div><p class="eyebrow">RETO DE LECTURA · 2026</p><h3>81 de 100 libros</h3><p>Un 81 % del objetivo anual registrado en Goodreads.</p></div><div class="challenge-progress" role="img" aria-label="Reto de lectura completado al 81 por ciento"><span></span></div><a class="text-link" href="https://www.goodreads.com/user/show/186595924-juan-sanabria" target="_blank" rel="noopener">Consultar en Goodreads ↗</a></div>
     </section>
 
     <section class="collection section-wrap" id="biblioteca">
-      <div class="section-heading"><div><p class="eyebrow">EL CATÁLOGO</p><h2>La biblioteca <em>privada</em></h2></div><p class="section-intro">Obras, manuscritos, ideas y pequeños hallazgos reunidos en un solo lugar.</p></div>
-      <div class="catalog-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Buscar título, autor o época…" aria-label="Buscar obras"><kbd>↵</kbd></label><label class="filter-label">ORDENAR POR <select id="sort-select" aria-label="Ordenar obras"><option value="featured">Selección</option><option value="title">Título A–Z</option><option value="author">Autor A–Z</option></select></label></div>
-      <div class="category-row" id="category-row" aria-label="Filtrar por categoría">
-        <button class="category-chip active" data-category="all">Toda la colección <span>08</span></button><button class="category-chip" data-category="Épica">Épica</button><button class="category-chip" data-category="Poesía">Poesía</button><button class="category-chip" data-category="Novela">Novela</button><button class="category-chip" data-category="Cuentos">Cuentos</button><button class="category-chip" data-category="Manuscritos">Manuscritos</button>
+      <div class="section-heading"><div><p class="eyebrow">MIS ESTANTERÍAS</p><h2>La biblioteca <em>personal</em></h2></div><p class="section-intro">El estado actual de mis estanterías, según Goodreads. Abre cada una para explorar la lista original.</p></div>
+      <div class="shelf-cards">
+        <a class="shelf-card" href="https://www.goodreads.com/review/list/186595924-juan-sanabria?shelf=read" target="_blank" rel="noopener"><span class="shelf-icon">✦</span><span class="shelf-label">ESTANTERÍA I</span><strong>Leídos</strong><span class="shelf-count">235 <small>libros</small></span><span class="shelf-open">Abrir estantería ↗</span></a>
+        <a class="shelf-card" href="https://www.goodreads.com/review/list/186595924-juan-sanabria?shelf=currently-reading" target="_blank" rel="noopener"><span class="shelf-icon">❧</span><span class="shelf-label">ESTANTERÍA II</span><strong>Leyendo ahora</strong><span class="shelf-count">50 <small>libros</small></span><span class="shelf-open">Abrir estantería ↗</span></a>
+        <a class="shelf-card" href="https://www.goodreads.com/review/list/186595924-juan-sanabria?shelf=to-read" target="_blank" rel="noopener"><span class="shelf-icon">✧</span><span class="shelf-label">ESTANTERÍA III</span><strong>Por leer</strong><span class="shelf-count">256 <small>libros</small></span><span class="shelf-open">Abrir estantería ↗</span></a>
+        <a class="shelf-card" href="https://www.goodreads.com/review/list/186595924-juan-sanabria?shelf=did-not-finish" target="_blank" rel="noopener"><span class="shelf-icon">❦</span><span class="shelf-label">ESTANTERÍA IV</span><strong>Abandonados</strong><span class="shelf-count">3 <small>libros</small></span><span class="shelf-open">Abrir estantería ↗</span></a>
       </div>
-      <div class="shelf-top"><span>ESTANTERÍA I</span><span id="result-count">08 OBRAS EN EL CATÁLOGO</span></div>
-      <div class="book-grid" id="book-grid" aria-live="polite">
-        <article class="work-card" tabindex="0" role="button" data-id="divina-comedia" data-title="Divina comedia" data-author="Dante Alighieri" data-period="Comienzos del siglo XIV" data-category="Poesía" data-language="Italiano" data-cover="nights" data-description="Poema alegórico que narra un viaje por el Infierno, el Purgatorio y el Paraíso. Su arquitectura literaria reúne teología, política, filosofía y poesía." data-note="Una travesía por los territorios del extravío y la esperanza: leer también puede ser aprender a orientarse.">
-          <div class="cover nights"><div class="cover-title"><span class="cover-symbol">☾</span>DIVINA<br>COMEDIA</div><span class="cover-subtitle">DANTE ALIGHIERI</span></div><div class="work-meta"><span class="category">POESÍA</span><h3>Divina comedia</h3><p>Dante Alighieri</p><span class="work-period">COMIENZOS DEL SIGLO XIV</span></div>
-        </article>
-        <article class="work-card" tabindex="0" role="button" data-id="quijote" data-title="Don Quijote de la Mancha" data-author="Miguel de Cervantes" data-period="1605 y 1615" data-category="Novela" data-language="Español" data-cover="rose" data-description="La novela de Cervantes sigue a un lector de libros de caballerías que decide convertirse en caballero andante junto a Sancho Panza." data-note="Una obra sobre el poder de la imaginación, la distancia entre los ideales y el mundo, y la dignidad de seguir buscando.">
-          <div class="cover rose"><div class="cover-title"><span class="cover-symbol">❦</span>DON QUIJOTE<br>DE LA MANCHA</div><span class="cover-subtitle">MIGUEL DE CERVANTES</span></div><div class="work-meta"><span class="category">NOVELA</span><h3>Don Quijote de la Mancha</h3><p>Miguel de Cervantes</p><span class="work-period">1605 · 1615</span></div>
-        </article>
-        <article class="work-card" tabindex="0" role="button" data-id="mil-noches" data-title="Las mil y una noches" data-author="Tradición oral y escrita" data-period="Recopilación medieval" data-category="Cuentos" data-language="Árabe; traducciones diversas" data-cover="bestiary" data-description="Conjunto de relatos que reúne viajes, maravillas, astucia y relatos encadenados alrededor de la narradora Sherezade." data-note="Aquí narrar es ganar tiempo: cada historia abre otra puerta y mantiene despierta la curiosidad.">
-          <div class="cover bestiary"><div class="cover-title"><span class="cover-symbol">✧</span>LAS MIL<br>Y UNA NOCHES</div><span class="cover-subtitle">RELATOS ORIENTALES</span></div><div class="work-meta"><span class="category">CUENTOS</span><h3>Las mil y una noches</h3><p>Tradición oral y escrita</p><span class="work-period">RECOPILACIÓN MEDIEVAL</span></div>
-        </article>
-        <article class="work-card" tabindex="0" role="button" data-id="libro-horas" data-title="Libro de horas" data-author="Autoría diversa" data-period="Siglos XIII–XVI" data-category="Manuscritos" data-language="Latín y lenguas vernáculas" data-cover="hours" data-description="Libro devocional de uso personal, a menudo decorado con miniaturas, iniciales ornamentadas y calendarios." data-note="En estos manuscritos, el texto y la imagen conviven: los márgenes también forman parte de la experiencia de lectura.">
-          <div class="cover hours"><div class="cover-title"><span class="cover-symbol">✥</span>LIBER<br>HORARUM</div><span class="cover-subtitle">MANUSCRITO ILUMINADO</span></div><div class="work-meta"><span class="category">MANUSCRITOS</span><h3>Libro de horas</h3><p>Autoría diversa</p><span class="work-period">SIGLOS XIII–XVI</span></div>
-        </article>
-        <article class="work-card" tabindex="0" role="button" data-id="beowulf" data-title="Beowulf" data-author="Poeta anónimo" data-period="Poema conservado en manuscrito medieval" data-category="Épica" data-language="Inglés antiguo" data-cover="bestiary" data-description="Poema épico en inglés antiguo sobre un héroe que combate amenazas extraordinarias y se enfrenta al paso del tiempo." data-note="La épica convierte la memoria de los actos en una forma de supervivencia frente al olvido.">
-          <div class="cover bestiary"><div class="cover-title"><span class="cover-symbol">⚜</span>BEOWULF</div><span class="cover-subtitle">POEMA ÉPICO</span></div><div class="work-meta"><span class="category">ÉPICA</span><h3>Beowulf</h3><p>Poeta anónimo</p><span class="work-period">TRADICIÓN MEDIEVAL</span></div>
-        </article>
-        <article class="work-card" tabindex="0" role="button" data-id="canterbury" data-title="Los cuentos de Canterbury" data-author="Geoffrey Chaucer" data-period="Finales del siglo XIV" data-category="Cuentos" data-language="Inglés medio" data-cover="rose" data-description="Una colección de relatos enmarcados en el viaje de un grupo de peregrinos, con voces y perspectivas sociales muy distintas." data-note="El camino se vuelve escenario: cada viajero cuenta y, al contar, revela algo de su mundo.">
-          <div class="cover rose"><div class="cover-title"><span class="cover-symbol">❦</span>CUENTOS DE<br>CANTERBURY</div><span class="cover-subtitle">GEOFFREY CHAUCER</span></div><div class="work-meta"><span class="category">CUENTOS</span><h3>Los cuentos de Canterbury</h3><p>Geoffrey Chaucer</p><span class="work-period">FINALES DEL SIGLO XIV</span></div>
-        </article>
-        <article class="work-card" tabindex="0" role="button" data-id="genji" data-title="La historia de Genji" data-author="Murasaki Shikibu" data-period="Comienzos del siglo XI" data-category="Novela" data-language="Japonés clásico" data-cover="hours" data-description="Obra central de la literatura japonesa clásica, sigue las relaciones, ambiciones y pérdidas de Genji y de quienes lo rodean." data-note="La sensibilidad por los cambios sutiles, las estaciones y lo pasajero sostiene la intimidad de esta narración cortesana.">
-          <div class="cover hours"><div class="cover-title"><span class="cover-symbol">✿</span>LA HISTORIA<br>DE GENJI</div><span class="cover-subtitle">MURASAKI SHIKIBU</span></div><div class="work-meta"><span class="category">NOVELA</span><h3>La historia de Genji</h3><p>Murasaki Shikibu</p><span class="work-period">COMIENZOS DEL SIGLO XI</span></div>
-        </article>
-        <article class="work-card" tabindex="0" role="button" data-id="bestiario" data-title="Bestiarios medievales" data-author="Compilaciones de tradición diversa" data-period="Edad Media" data-category="Manuscritos" data-language="Latín y lenguas vernáculas" data-cover="nights" data-description="Textos e imágenes que describían animales reales y fantásticos, acompañados a menudo por interpretaciones morales o religiosas." data-note="El animal medieval puede ser criatura, símbolo y advertencia a la vez; mirar una imagen también era interpretar.">
-          <div class="cover nights"><div class="cover-title"><span class="cover-symbol">♧</span>BESTIARIOS<br>MEDIEVALES</div><span class="cover-subtitle">ANIMALES Y SÍMBOLOS</span></div><div class="work-meta"><span class="category">MANUSCRITOS</span><h3>Bestiarios medievales</h3><p>Compilaciones diversas</p><span class="work-period">EDAD MEDIA</span></div>
-        </article>
-      </div>
-      <div class="shelf-line"><span></span><span class="shelf-decoration">✦ &nbsp; ✦ &nbsp; ✦</span><span></span></div>
-      <p class="collection-note"><span>✳</span> Cada libro es una puerta. Elige una portada para abrir su ficha.</p>
+      <div class="genres-row"><div><p class="eyebrow">MIS GÉNEROS FAVORITOS</p><h3>Territorios de lectura</h3></div><div class="genre-chips"><span>Ficción</span><span>Ficción histórica</span><span>Terror</span><span>No ficción</span><span>Poesía</span><span>Young adult</span></div></div>
     </section>
 
-    <section class="quote-section" id="fragmentos"><div class="quote-ornament">“</div><p class="eyebrow">UNA NOTA PARA LA TARDE</p><blockquote>Hay libros que se abren<br>y otros que <em>nos abren.</em></blockquote><p class="quote-credit">— APUNTE DEL SCRIPTORIUM · TEXTO ORIGINAL</p><span class="quote-corner corner-left">❦</span><span class="quote-corner corner-right">❦</span></section>
-    <section class="about-section section-wrap" id="acerca"><div class="about-seal">S<span>✦</span></div><div><p class="eyebrow">SOBRE ESTE LUGAR</p><h2>Una habitación propia<br>para la <em>memoria escrita.</em></h2></div><p class="about-copy">Scriptorium Privatum es un archivo personal: un lugar tranquilo donde reunir libros, registrar hallazgos, conservar imágenes y guardar notas de lectura. El catálogo se mantiene en este mismo HTML para que puedas editarlo directamente.</p></section>
+    <section class="currently-reading section-wrap" id="leyendo">
+      <div class="section-heading"><div><p class="eyebrow">ENTRE LAS PÁGINAS</p><h2>Estoy leyendo <em>ahora.</em></h2></div><p class="section-intro">Tres lecturas que aparecen actualmente en mi perfil público.</p></div>
+      <div class="book-grid personal-book-grid">
+        <article class="work-card" tabindex="0" role="button" data-id="garras" data-title="Garras del paraíso" data-author="Charles Bukowski" data-period="Lectura en curso" data-category="Poesía" data-language="Español" data-cover="rose" data-description="Garras del paraíso (Flash Poesía), edición en español registrada entre mis lecturas actuales." data-note="Esta lectura figura en la estantería «currently-reading» de mi perfil de Goodreads."><div class="cover rose"><div class="cover-title"><span class="cover-symbol">❦</span>GARRAS DEL<br>PARAÍSO</div><span class="cover-subtitle">CHARLES BUKOWSKI</span></div><div class="work-meta"><span class="category">LEYENDO AHORA</span><h3>Garras del paraíso</h3><p>Charles Bukowski</p><span class="work-period">LECTURA EN CURSO</span></div></article>
+        <article class="work-card" tabindex="0" role="button" data-id="paradise-lost" data-title="Paradise Lost" data-author="John Milton" data-period="Lectura en curso" data-category="Épica" data-language="Inglés" data-cover="nights" data-description="Poema épico de John Milton, registrado entre mis lecturas actuales." data-note="Mi perfil de Goodreads muestra esta obra en la estantería «currently-reading»."><div class="cover nights"><div class="cover-title"><span class="cover-symbol">☾</span>PARADISE<br>LOST</div><span class="cover-subtitle">JOHN MILTON</span></div><div class="work-meta"><span class="category">LEYENDO AHORA</span><h3>Paradise Lost</h3><p>John Milton</p><span class="work-period">LECTURA EN CURSO</span></div></article>
+        <article class="work-card" tabindex="0" role="button" data-id="hombre-solo" data-title="El libro de un hombre solo" data-author="Gao Xingjian" data-period="Lectura en curso" data-category="Novela" data-language="Español" data-cover="hours" data-description="Novela de Gao Xingjian, incluida entre mis lecturas actuales." data-note="Mi perfil de Goodreads muestra esta obra en la estantería «currently-reading»."><div class="cover hours"><div class="cover-title"><span class="cover-symbol">✥</span>EL LIBRO DE<br>UN HOMBRE SOLO</div><span class="cover-subtitle">GAO XINGJIAN</span></div><div class="work-meta"><span class="category">LEYENDO AHORA</span><h3>El libro de un hombre solo</h3><p>Gao Xingjian</p><span class="work-period">LECTURA EN CURSO</span></div></article>
+      </div>
+      <p class="collection-note"><span>✳</span> Las fichas destacadas son una selección; consulta Goodreads para ver el catálogo completo y las reseñas originales.</p>
+    </section>
+
+    <section class="quote-section" id="fragmentos"><div class="quote-ornament">“</div><p class="eyebrow">UN LUGAR PARA MIS IMPRESIONES</p><blockquote>Leer es guardar el mundo<br>en una forma de <em>memoria.</em></blockquote><p class="quote-credit">— SCRIPTORIUM PRIVATUM · NOTA ORIGINAL</p><span class="quote-corner corner-left">❦</span><span class="quote-corner corner-right">❦</span></section>
+    <section class="about-section section-wrap" id="acerca"><div class="about-seal">S<span>✦</span></div><div><p class="eyebrow">SOBRE ESTE LUGAR</p><h2>Mis libros,<br>mi <em>propio archivo.</em></h2></div><p class="about-copy">Scriptorium Privatum es mi espacio personal para compartir el recorrido de mis lecturas. Las cifras y estanterías se consultaron en mi perfil público de Goodreads; esta página aún no sincroniza automáticamente las nuevas reseñas o cambios de estantería.</p></section>
   </main>
-  <footer class="site-footer"><a class="footer-brand" href="#inicio">SCRIPTORIUM PRIVATUM</a><span>Hecho para el amor a los libros <b>✳</b></span><a href="#inicio">Volver al inicio ↑</a></footer>
+  <footer class="site-footer"><a class="footer-brand" href="#inicio">SCRIPTORIUM PRIVATUM</a><span>La biblioteca de Juan Sanabria <b>✳</b></span><a href="https://www.goodreads.com/user/show/186595924-juan-sanabria" target="_blank" rel="noopener">Goodreads ↗</a></footer>
   <dialog class="work-dialog" id="work-dialog" aria-labelledby="dialog-title"><button class="dialog-close" id="dialog-close" aria-label="Cerrar ficha">×</button><div id="dialog-content"></div></dialog>
 </body>
 </html>

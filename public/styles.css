@@ -29,3 +29,49 @@ html[data-theme="dark"] .post-side-note{color:#b9a9ad}
 html[data-theme="dark"] footer{background:#1b1a20;color:var(--muted);border-color:var(--line)}
 html[data-theme="dark"] a:focus-visible,html[data-theme="dark"] button:focus-visible,html[data-theme="dark"] input:focus-visible,html[data-theme="dark"] select:focus-visible{outline:2px solid #d6a09b;outline-offset:3px}
 @media(prefers-reduced-motion:reduce){body,body:before,.theme-toggle{transition:none!important}}
+
+
+/* Ajustes finales del modo nocturno: carbón cálido y contraste cómodo */
+html[data-theme="dark"]{
+  --paper:#29262b;
+  --white:#373239;
+  --ink:#f2eae1;
+  --muted:#c4b8ae;
+  --line:#5a5054;
+  --red:#e2aaa0;
+  --glow-a:rgba(190,112,105,.13);
+  --glow-b:rgba(133,119,170,.12);
+}
+html[data-theme="dark"] body{background:var(--paper);color:var(--ink)}
+html[data-theme="dark"] .blog-header{background:rgba(48,43,49,.96)}
+html[data-theme="dark"] .profile-card{background:var(--white);box-shadow:5px 5px 0 #332d34}
+html[data-theme="dark"] .profile-image{background:#494047;border-color:#494047;outline-color:#79636b}
+html[data-theme="dark"] .intro,
+html[data-theme="dark"] .post blockquote,
+html[data-theme="dark"] .profile-card .profile-note,
+html[data-theme="dark"] .about>p{color:#e0d5cb!important}
+html[data-theme="dark"] .ink-button{background:#e2aaa0;color:#30252a}
+html[data-theme="dark"] .ink-button:hover{background:#f0c0b5}
+html[data-theme="dark"] .shelves{background:#302b32;border-color:var(--line)}
+html[data-theme="dark"] .shelf-grid a{background:#3a343b;border-color:#5a5054;color:var(--ink)}
+html[data-theme="dark"] .shelf-grid a small{color:var(--muted)}
+html[data-theme="dark"] .library-controls input,
+html[data-theme="dark"] .library-controls select{background:#3a343b;color:var(--ink);border-color:var(--line);color-scheme:dark}
+html[data-theme="dark"] .library-controls input::placeholder{color:#c4b8ae;opacity:1}
+html[data-theme="dark"] .library-pagination button{background:#e2aaa0;color:#30252a}
+html[data-theme="dark"] .book-entry-dialog{background:#373239;color:var(--ink);border-color:var(--line)}
+html[data-theme="dark"] .book-entry-dialog::backdrop{background:rgba(12,10,13,.68)}
+html[data-theme="dark"] .theme-toggle{background:#403941;color:var(--ink);border-color:#685b63}
+html[data-theme="dark"] .post blockquote{border-left-color:#b98583}
+html[data-theme="dark"] .post-side-note{color:#c4b8ae}
+html[data-theme="dark"] .blog-footer{background:#302b32;color:var(--muted);border-color:var(--line)}
+html[data-theme="dark"] .blog-footer .wordmark{color:var(--ink)}
+html[data-theme="dark"] .about>p{color:#e0d5cb}
+html[data-theme="dark"] .library-shelf-tag{background:#403941;color:#e0d5cb;border-color:#655961}
+html[data-theme="dark"] .entry-close{color:var(--red)}
+html[data-theme="dark"] .entry-stars,
+html[data-theme="dark"] .library-bookmark{color:#e0bd78}
+html[data-theme="dark"] a:focus-visible,
+html[data-theme="dark"] button:focus-visible,
+html[data-theme="dark"] input:focus-visible,
+html[data-theme="dark"] select:focus-visible{outline:2px solid #f0b8ae;outline-offset:3px}

@@ -75,3 +75,19 @@ html[data-theme="dark"] a:focus-visible,
 html[data-theme="dark"] button:focus-visible,
 html[data-theme="dark"] input:focus-visible,
 html[data-theme="dark"] select:focus-visible{outline:2px solid #f0b8ae;outline-offset:3px}
+
+
+/* Música: reproductor integrado de Spotify */
+.music-section{max-width:1100px;margin:0 auto;padding:64px 30px 78px;border-top:1px solid var(--line)}
+.music-player{display:grid;grid-template-columns:minmax(220px,.72fr) minmax(0,1.28fr);gap:28px;align-items:stretch;padding:24px;background:var(--white);border:1px solid var(--line);box-shadow:5px 5px 0 #e9dece}
+.music-intro{display:flex;align-items:flex-start;gap:17px;padding:18px 8px}
+.music-mark{display:grid;place-items:center;flex:0 0 48px;width:48px;height:48px;border-radius:50%;background:#dce7dc;color:#315b42;font:30px var(--display)}
+.music-kicker{font:10px Arial,sans-serif;letter-spacing:1.6px;color:var(--red);margin:3px 0 12px}
+.music-intro h3{font:30px/1.12 var(--display);margin:0 0 10px}
+.music-intro p:not(.music-kicker){color:var(--muted);margin:0 0 18px;font-size:18px}
+.music-intro a{color:var(--red);font-size:16px;text-decoration:none;border-bottom:1px solid var(--red);padding-bottom:3px}
+.spotify-frame{min-width:0;overflow:hidden;border-radius:12px;background:#121212}
+.spotify-frame iframe{display:block;width:100%;min-height:352px;border:0;border-radius:12px}
+html[data-theme="dark"] .music-player{background:var(--white);border-color:var(--line);box-shadow:5px 5px 0 #332d34}
+html[data-theme="dark"] .music-mark{background:#465448;color:#dcebdc}
+@media(max-width:760px){.music-player{grid-template-columns:1fr;gap:15px;padding:16px}.music-intro{padding:8px 4px}.music-section{padding:48px 22px 55px}}
